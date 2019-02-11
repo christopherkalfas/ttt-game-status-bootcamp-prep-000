@@ -37,5 +37,5 @@ end
  end
  
  def draw(board)
-   if 
+   if won?
    
