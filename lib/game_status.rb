@@ -45,5 +45,10 @@ end
  end
  
  def over?(board)
-   board.any? {|i|  
+   if won?(board) || draw?(board) || full?(board)
+    true
+   elsif !full?(board)
+    false
+  end
+end
    
