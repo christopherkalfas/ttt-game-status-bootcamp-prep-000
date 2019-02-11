@@ -54,6 +54,6 @@ end
    
 def winner(board)
   if won?(board).to eq("X")
-    return 
+    return "X"
   end
 end
