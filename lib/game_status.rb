@@ -53,7 +53,6 @@ def over?(board)
 end
    
 def winner(board)
-  if won?(board).to eq("X")
-    return "X"
+  if won?(board).
   end
 end
