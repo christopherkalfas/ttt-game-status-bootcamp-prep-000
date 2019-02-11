@@ -45,5 +45,5 @@ end
  end
  
  def over?(board)
-   
+   board.any? {|i|  
    
