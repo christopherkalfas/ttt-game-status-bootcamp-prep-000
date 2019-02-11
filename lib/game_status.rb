@@ -32,19 +32,19 @@ def won?(board)
   false 
 end  
     
- def full?(board)
+def full?(board)
    board.all?{|i| i == "X" || i == "O"}
- end
+end
  
- def draw?(board)
+def draw?(board)
    if !won?(board) && full?(board)
-     return true
+    return true
    elsif !won?(board) && !full?(board)
     return false 
    end
- end
+end
  
- def over?(board)
+def over?(board)
    if won?(board) || draw?(board) || full?(board)
     true
    elsif !full?(board)
